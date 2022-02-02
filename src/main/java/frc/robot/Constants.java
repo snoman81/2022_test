@@ -27,6 +27,26 @@ public class Constants {
        public static final int kRightMotor1Port = 2;
        public static final int kRightMotor2Port = 3; 
      }
-    
+     public static final class eleConstants {
+      public static final int kMotor1Port = 4;
+       
+     }
+
+     public static final class ClimberConstants {
+      public static final int kMotor1Port = 5;
+      public static final int kMotor2Port = 6;
+     }
+     public static final class intakeConstants {
+      public static final int kMotor1Port = 7;
+     
+     }
+
+
+     public static final class HDriveConstants {
+      public static final int kMotor1Port = 8;
+     }
+     
+
+
 }
 
