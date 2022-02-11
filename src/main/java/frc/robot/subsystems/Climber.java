@@ -93,8 +93,12 @@ talonFXEnhanced7.configPeakOutputReverse(-1, 30);
 
     }
 
+    
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
-
+    public void my_set_Climber_speed(double speed){
+        talonFXEnhanced6.set(speed);
+        talonFXEnhanced7.set(speed);
+    }
 }
 
